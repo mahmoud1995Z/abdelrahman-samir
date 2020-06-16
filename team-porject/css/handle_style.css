@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+  
+}
+/* ---------------------------------------------- top nav  */
+.top-nav 
+{
+    background-color: #FE3C47 !important;
+    line-height: 42px;
+  
+}
+.w-80
+{
+    width: 80% !important;
+
+}
+.top-nav a
+{
+    color: white !important;
+}
+.top-nav i
+{
+    padding: 5px;
+    color: black;
+    background-color: white;
+    font-size: 14px;
+    margin-left: 5px;
+}
+.top-nav i:hover
+{
+    color: #FE3C47;
+  
+}
+
+/* ---------------------------------------------- second nav  */
+
+.sticky
+{
+    position: fixed;
+    top: 0;
+    width: 100% !important;
+    padding-left: 10%;
+    padding-right: 10%;
+    z-index: 55;
+    background-color: white !important;
+}
+.second-nav
+{
+    line-height: 60px;
+}
+.second-nav a
+{ 
+    color: black !important;
+    font-weight: bold;
+    padding-left: 20px;
+    margin-left: 10px;
+ 
+
+}
+
+.banner::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0; left: 0;
+  background-color: rgba(45, 52, 54,1.0);
+  opacity: .6;
+  height: 100%; width: 100%;
+ z-index: 0;
+}
+.banner{
+  position: relative;
+}
+.banner > * {
+  z-index: 10;
+  position: relative;
+  color:white;
+} 
+
+.banner {
+  background-image: url(../images/header-bg.jpg);
+  background-size: cover;
+  text-align: center;
+  height: 350px;
+}
+h1 , p{
+  position: relative;
+  top: 30%;
+}
+ .contact-info .icon-container {
+    display: inline-block;
+    background: #FE3C47;
+    color: #FFFFFF;
+    padding: 8px;
+    text-align: center;
+    margin-right: 5px;
+    font-size: small;
+}
+ul li {
+  list-style: none;
+}
+.dvide::before{
+  content: "";
+  width: 25%;
+  height: 4px;
+  background-color: #FE3C47;
+  opacity: .2;
+}
+.dvide{
+  width: 75%;
+  height: 4px;
+  background-color: rgb(179, 172, 172);
+  opacity: .2;
+}
+.form-control{
+  border-bottom: 1px solid red;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.banner a{
+  color: #FFFFFF;
+}
+.banner a:hover{
+  color: #FE3C47;
+  transition: .8s;
+  text-decoration: none;
+}
+
+a{
+  color: black;
+}
+
+a:hover{
+  color: #FE3C47;
+  transition: .7s;
+  text-decoration: none;
+}
+.btn{
+    background: #FE3C47;
+    border: 0 solid #CCCCCC;
+    color: #FFFFFF;
+    height: 42px;
+    margin-top: 6px;
+    padding: 0 10px;
+    border-radius: 0px ;
+}
+.btn:hover{
+  background-color: #FFFFFF;
+  border: 1px solid #000;
+  transition: .7s;
+  color: #FE3C47;
+
+
+
+  
+
+}
+.footer
+{
+    background-color: black;
+    margin-top: 50px;
+    color: white ;
+}
+
+
+.line
+{
+    height: 0.1px;
+    background-color: gainsboro;
+}
+.setMailInput
+{
+    background: #444444 !important;
+    border: 0 solid #CCCCCC !important;
+    border-radius: 0 !important;
+    height: 48px !important;
+    color: #FFFFFF !important;
+    width: 70% !important;
+}
+.subBtn
+{
+    background: #FE3C47;
+    border: 0 solid #CCCCCC;
+    color: #FFFFFF;
+    height: 42px;
+    letter-spacing: 2px;
+    margin-top: 6px;
+    padding: 0 18px;
+    text-transform: uppercase;
+}
+.contact p
+{
+    margin-left: 10px;
+    display: inline;
+    font-size: 20px;
+    font-weight: lighter;
+    
+}
+.contact i
+{
+    color: red;
+    font-size: 25px;
+    padding: 20px;
+    
+}
+.contact p:hover
+{
+    color: red;
+}
+/* --------------------------------------------- -  the end of footer */
+
